@@ -1,4 +1,4 @@
 # CS 360 Portfolio
 
-**[Your Name]**  
+**[Your Name]**<br/>
 <username@dons.usfca.edu>
