@@ -27,7 +27,6 @@
     <![endif]-->
   </head>
   <body>
-
     <!--HEADER -->
     <div class="header">
 
@@ -94,19 +93,22 @@
 
         <!--ABOUT-->
         <section id="about">
-          <div class="col-md-6 col-xs-12 no-pad">
-            <div class="bg-about"></div>
-          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>About</span>
+                </h3>
+                <p class="content-detail">
+                  My name is Yuanyuan Ruan. I live in San Francisco. I am a senior student in data science major in Univeristy of San Francisco. I am a dream chaser, who enjoy life and challenges.
+
+              </div>
           <div class="col-md-6 col-sm-12 col-xs-12 white-col">
             <div class="row">
               <!--OWL CAROUSEL2-->
-              <div class="owl-carousel2">
-                <div class="col-md-12">
-                  <img src="selfie.jpeg" alt="signature" height="500" width="500">
-                      <p class="head-about">
 
-                        My name is Yuanyuan Ruan. I live in San Francisco. I am a senior student in data science major in Univeristy of San Francisco. I am a dream chaser, who enjoy life and challenges.
-                      </p>
+                <div class="col-md-15">
+                  <img src="selfie2.jpeg" height="450", width="800">
 
                 </div>
             </div>
@@ -123,38 +125,31 @@
                   <span>Homework</span>
                 </h3>
                 <p class="content-detail">
+                  <em><strong>(Click on graphs to open the links and view the details)</strong></em><br><br>
                    What I have learned in the homework in Data Visualization class: bar chart, line chart, scatterplot matrix, etc in D3 and Tableau.
               </div>
               <div class="col-md-9 content-right">
                 <!--PORTFOLIO IMAGE-->
                 <ul class="portfolio-image">
-                  <li class="col-md-6">
-                    <a target="_blank" href="https://usf-cs360-2017.github.io/homework1-tracyruan007"><img alt="image" src="multi category.tiff">homework1</a>
 
-
-                    <!--
-                    <div class="decription-wrap">
-                      //  <div class="image-bg">
-                           <p class="desc">Homework One</p>
-                        //</div>
-
-                      </div>
-                    -->
-
-                  </li>
-
-
-                  <li class="col-md-6">
-                    <a target="_blank" href="https://usf-cs360-2017.github.io/homework2-tracyruan007"><img alt="image" src="tableau.tiff">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                          <p class="desc">
-                            Homework Two
-                          </p>
-                        </div>
-                      </div>
+                    <a target="_blank" href="https://usf-cs360-2017.github.io/homework1-tracyruan007">
+                      <img alt="image" src="multi category.tiff">
                     </a>
-                  </li>
+                    <em><p>Homework one summary:</p></em>
+                    <p>The dataset comes from "SFPD Incidents" for the entire month of December 2016. It includes 8 columns and 12,609 rows. It can be obtained from
+                      <a href="https://data.sfgov.org/Public-Safety/SFPD-Incidents-December-2016/mrx7-9t8b"><strong><em>web link</em></strong></a>.
+                      There are three graphs in this assignments, which are two bar charts and one line chart.</p>
+
+
+
+                    <br><br>  <br>
+                    <a target="_blank" href="https://usf-cs360-2017.github.io/homework2-tracyruan007">
+                      <img alt="image" src="tableau.tiff">
+                    </a>
+                    <em><p>Homework two summary:</p></em>
+                    <p>This visualization tells the baseline estimates of parents’ and children’s income distributions by college in a scatterplot matrix, the data source is from Equality of Opportunity Project, Table 2: Baseline Cross-Sectional Estimates by College table from the study Mobility Report Cards: The Role of Colleges in Intergenerational Mobility by Chetty, Friedman, Saez, Turner, and Yagan (2017).
+                    </p>
+
 
 
                 </ul>
@@ -174,37 +169,22 @@
                   <span>Projects</span>
                 </h3>
                 <p class="content-detail">
-                   What I have learned in the projects in Data Visualization class:  filled out later
+                   <a href="https://usf-cs360-2017.github.io/midterm-omega-tron/index.html"><strong><em>https://usf-cs360-2017.github.io/midterm-omega-tron/index.html</em></strong></a>
+                   <br><br> Click link above to view the project details.
               </div>
               <div class="col-md-9 content-right">
                 <!--PORTFOLIO IMAGE-->
                 <ul class="portfolio-image">
                   <li class="col-md-6">
-                    <a href="https://usf-cs360-2017.github.io/homework1-tracyruan007"><img alt="image" src="multi category.tiff">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                           <p class="desc">Homework One</p>
-                        </div>
-
-                      </div>
-                    </a>
+                    <img alt="image" src="vis_1_official.png">
                   </li>
 
 
                   <li class="col-md-6">
-                    <a href="https://usf-cs360-2017.github.io/homework2-tracyruan007"><img alt="image" src="tableau.tiff">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                          <p class="desc">
-                            Homework Two
-                          </p>
-                        </div>
-                      </div>
-                    </a>
+                  <img alt="image" src="vis_2_official.png">
                   </li>
-
-
                 </ul>
+                <p>This project used data collected and published by the City of San Francisco about the time and nature of each call that came in during the December of 2016. Visit SF OpenData for our dataset. This dataet has 27,768 observations on 34 different variables. Our visualizations explore 3 dimenions: the Battalion that responded to the event (Battalion), and the times ambulances picked someone up (Transport.DtTm) and arrived at the hospital (Hospital.DtTm).</p>
                 <!--/.PORTFOLIO IMAGE END-->
               </div>
             </div>
@@ -329,25 +309,7 @@
         </section>
         <!--/.CONTACT END-->
 
-        <!--FOOTER-->
-        <footer>
-          <div class="footer-top">
-            <ul class="socials">
-              <li class="facebook">
-                <a href="#" data-hover="Facebook">Facebook</a>
-              </li>
-              <li class="twitter">
-                <a href="#" data-hover="Twitter">Linkedin</a>
-              </li>
-              <li class="gplus">
-                <a href="#" data-hover="Google +">Google +</a>
-              </li>
-            </ul>
-          </div>
 
-
-        </footer>
-        <!--/.FOOTER-END-->
 
       <!--/.CONTENT END-->
       </div>
