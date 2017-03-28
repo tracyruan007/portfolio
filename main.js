@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is Yuanyuan Ruan", "I am a future data scientist", "Love Simplicity"，"Love My Life"],
+        strings: ["My Name is Yuanyuan Ruan", "I want to be a great Data Scientist", "Love Simplicity"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
