@@ -505,7 +505,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('../portfolio-image/selfie.png');
+  background: url('../selfie.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
